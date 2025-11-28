@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f4f4f4;
+
+    background-image: url("../imagenes/gym2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ffd900e0;
+}
+
+.btn-agregar {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background: #ffd900e0;
+    color: #333232 !important;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-agregar:hover {
+    background: #ceb110a9;
+}
+
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th {
+    background: #ffd900e0;
+    color: #333232;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background: #f1f1f1;
+}
+
+.btn-editar {
+    padding: 6px 10px;
+    background: #ffd900e0;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-editar:hover {
+    background: #ceb110a9;
+}
+
+.btn-atras {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background: #ffd900e0;
+    color: #333232 !important;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-atras:hover {
+    background: #ceb110a9;
+}
