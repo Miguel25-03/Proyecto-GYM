@@ -47,7 +47,7 @@ button {
     margin-top: 20px;
     padding: 12px;
     background: #ffd900e0;
-    color: white;
+    color: #3a3a3a;
     font-size: 16px;
     border: none;
     border-radius: 6px;
@@ -65,7 +65,7 @@ button:hover {
     text-align: center;
     padding: 10px;
     background: #ffd900e0;
-    color: white;
+    color: #3a3a3a;
     text-decoration: none;
     border-radius: 6px;
     transition: 0.3s;
