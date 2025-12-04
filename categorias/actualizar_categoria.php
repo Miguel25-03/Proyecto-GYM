@@ -1,5 +1,5 @@
 <?php
-include_once "../conexion.php";
+include "../conexion.php";
 $id = $_GET['id'];
 $c = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM categoria WHERE id_categoria=$id"));
 ?>
