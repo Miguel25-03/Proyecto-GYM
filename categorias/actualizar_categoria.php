@@ -5,6 +5,7 @@ $c = mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM categoria WHERE id_ca
 ?>
 
 <head>
+    <title>Actualizar Categoría</title>
     <link rel="stylesheet" href="../css/actualizarC.css">
 </head>
 <form method="POST">
